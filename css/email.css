@@ -1,0 +1,80 @@
+.container-fluid {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.bill-title{
+    background: #2C3E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #fff, #ececec);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #fff, #ececec); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.wrapper{
+    box-sizing: border-box;
+}
+
+.bill-title h2{
+    text-align: left;
+    font-size: 26px;
+    color: #03a99d;
+    margin-left: 15px;
+}
+.contract-content.contract-content-1{
+padding-left: 70px;
+}
+.contract-content-1 p{
+    position: relative;
+}
+.contract-content-1 p span{
+    position: absolute;
+    left: -52px;
+}
+.bill-title +p{
+    padding: 10px;
+    line-height: 28px;
+    margin: 10px 0;
+}
+input[type=Checkbox]:not(old) + label{
+    background: url(../images/form/icon-chk-unchecked-1.png) no-repeat;
+}
+input[type=Checkbox]:not(old):checked + label{
+    background: url(../images/form/icon-chk-checked.png) no-repeat;
+}
+.footer,.footer-copyright{
+    position: static;
+}
+form{
+    border: 1px solid #ddd;
+    padding: 16px 26px;
+}
+hr{
+    border: 1px dashed #ddd;
+}
+.contract-content{
+    padding: 15px;
+    background: #ececec;
+    line-height: 28px;
+}
+.contract-content h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.contract-content ol{
+    list-style: decimal;
+    padding-left: 1em;
+}
+.agree{
+    text-align: center;
+    margin: 20px 0;
+}
+.enter {
+    background: #ED1865;
+    color: #fff;
+    max-width: 170px;
+    padding: 6px;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
